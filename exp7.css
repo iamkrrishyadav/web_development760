@@ -1,0 +1,50 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.block-menu a 
+{
+  display: block;
+  background-color: #0d5687;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-decoration: none;
+}
+.inline-menu a 
+{ 
+  display: inline;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+}
+.inline-block-menu a
+{ 
+  display: inline-block;
+  background-color: rgb(4, 255, 117);
+  color: white;
+  height: 50px;
+  width: 100px;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+}
+.float-menu
+{ 
+  float: left;
+  background-color: rgb(231, 8, 157);
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  text-decoration: none;
+}
+.clear-example {
+  clear: both;
+  background-color: #ff0606;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #e80e0e;
+}
